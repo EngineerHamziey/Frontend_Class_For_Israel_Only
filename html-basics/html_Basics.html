@@ -15,7 +15,11 @@
   <!-- the width of our webpage is set to the device(computer/phone) width  -->
   <!-- initial scale of 1.0 implies, don't zoom in or zoom out -->
 
-
+  <style>
+    body {
+      padding-bottom: 5rem;
+    }
+  </style>
   <title>HTML Basics</title>
   <!-- https://typingtestnow.com/app/typing_practice.html -->
 </head>
@@ -62,21 +66,45 @@
 
 
   <!-- ==========DAY 2================== -->
-  <!-- 
-  <a> 
-  <img>
-  <header>: Represents the header section of a document.
-  <footer>: Represents the footer section of a document.
-  <nav>: Represents a section with navigation links.
-  <main>: Represents the main content of a document.
-  <article>: Represents an independent piece of content.
-  <section>: Represents a section of content.
-  <aside>: Represents content aside from the main content.
-  <figure>: Represents self-contained content, like images with captions.
-  <figcaption>: Defines a caption for the <figure> element.
-    -->
+  <!-- <a>: THE HTML achor tag  -->
+    <!-- the href hypertext reference takes a value which is the link -->
+  <a href="https:\\www.google.com"> Click here to download</a>
+  <br>
+  <a href="https:\\www.google.com" target="_blank"> Click here to open in a new tab</a>
 
+  <!-- use pexels.com to find images sample to use for practice -->
+  <!-- the src means source/location of the image, alt(alternative text) >> the description of the image -->
+  <h2>Images from remote server</h2>
+  <img src="https://cdn2.thecatapi.com/images/MTY3ODIyMQ.jpg" alt="A cute cat">
 
+  <h2>Local Images</h2>
+  <img width="500px" src="./images 1/image-1.jpg" alt="">
+  <!-- the image tag is an inline element -->
+  <img width="500px" src="./images 1/image-2.jpg" alt="">
+  
+  
+  <!-- ==================== HTML Landmark Element====================== -->
+
+  <!-- <header>: Represents the header section of a document. -->
+   <header> 
+     <!-- <nav>: Represents a section with navigation links. -->
+      <nav> 
+        <p>this is the nav inside the header of the page</p>
+      </nav>
+   </header>
+  
+  <!-- <footer>: Represents the footer section of a document. -->
+    <footer>
+      <p>thisis the footer of the page </p>
+    </footer>
+
+  <!-- <main>: Represents the main content of a document. -->
+    
+  <!-- <article>: Represents an independent piece of content. -->
+  <!-- <section>: Represents a section of content. -->
+  <!-- <aside>: Represents content aside from the main content. -->
+  <!-- <figure>: Represents self-contained content, like images with captions. -->
+  <!-- <figcaption>: Defines a caption for the <figure> element. -->
 
 </body>
 </html>
