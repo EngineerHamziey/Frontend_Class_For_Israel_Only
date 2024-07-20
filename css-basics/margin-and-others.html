@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    /* css resets */
+    * {
+      /* the "*" selects all */
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    .margin {
+      border: solid 0.3rem red;
+      /* margin, applies space outside the border of an element */
+      /* margin below, give margin of 2rem to the element in top, bottom, left and right */
+      margin: 2rem;
+      /* how to assign margin individually */
+      margin-top: 2rem;
+      margin-right: 1rem;
+      margin-bottom: 3rem;
+      margin-left: 1.5rem;
+      /* all the above can still be done in a single line */
+      /* margin: top right bottom left; */
+      margin: 2rem 1rem 3rem 1.5rem;
+      /* margin: top&bottom left&right; 
+      i.e
+      margin: vertical horizontal;
+      example is shown below:*/
+      margin: 4rem 10rem;
+    }
+
+    .padding {
+      /* padding applies spaces inside the border of the element */
+      /* padding works the way */
+      border: dotted 20px #444;
+      padding: 2rem;
+      padding: 2rem 10rem;
+      padding: 1rem 2rem 3rem 10rem;
+    }
+
+  </style>
+  <title>CSS Basics</title>
+</head>
+<body>
+  <h1 class="head" >This is Basics of css</h1>
+  <p class="head">
+    We will be talking about some CSS. i.e HTML tags properties and their values
+  </p>
+
+  <ul id="list">
+    <li class="margin">
+      <h2>Margin Property</h2>
+    </li>
+
+    <li class="padding">
+      <h2>Padding Property</h2>
+    </li>
+
+    <li>
+      <h2>the border box</h2>
+    </li>
+
+    <li>
+      <h2>Basic CSS resets</h2>
+    </li>
+  </ul>
+</body>
+</html>
